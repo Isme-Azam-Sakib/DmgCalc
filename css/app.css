@@ -1,0 +1,135 @@
+body {
+    background-size: cover;
+    text-align: center;
+}
+
+ #full-width{
+    background: url(https://wallpaperaccess.com/full/6790497.jpg) no-repeat center center fixed ;
+    /* background-color: #271a62; */
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    
+ }
+
+ 
+ #full-width::before{
+    content: '';
+    background: rgba(8, 0, 12, 0.388);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;    
+}
+
+#full-width h1{
+    font-family: geologica;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 160px;
+    text-transform: uppercase;
+    font-size: 50px;
+    z-index: 10;    
+}
+
+#box{
+    height: 70vh;
+    margin: auto auto;
+    text-align: center;    
+}
+
+
+/*  */
+#box .inputs{
+    background: #e3dcff;
+    font-size: 17px;
+    padding: 50px;
+    border-style: none ;
+}
+
+#box h3{
+    font-size: 40px;
+    font-family: geologica;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#box p{
+    padding: 0px;
+    margin: -1px;
+    font-family: poppins;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-weight: 500; 
+}
+#box .inputs:hover{
+    border-style: none ;
+}
+
+#box .inputs form{
+    padding-top: 90px;
+    font-family: poppins;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+#box .inputs form input{
+    background-color: #f7f7f7;
+    font-weight: 500; 
+    font-size: 18px;
+    color: #282a36;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#box .inputs form select{
+    background-color: #f7f7f7;
+    font-weight: 500; 
+    color: #282a36;
+    font-size: 18px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;   
+}
+#box .inputs form button{
+    background-color: #725dff;
+    color: white;
+}
+#box .inputs form button:hover{
+    background-color: #6146D9;
+}
+/*  */
+#box .skill{
+    background: #523F9E;
+    padding: 50px;
+    color: white;
+}
+
+.skill h3{
+    padding-bottom: 100px;
+}
+.skill p{
+    font-size: 25px;   
+    
+}
+.burst h3{
+    padding-bottom: 100px;
+}
+.burst p{
+    font-size: 25px;    
+}
+
+/*  */
+#box .burst{
+    background: #41327E;
+    color: white;
+    padding: 50px;
+}
+
